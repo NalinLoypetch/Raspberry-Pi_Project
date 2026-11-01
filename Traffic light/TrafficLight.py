@@ -8,7 +8,8 @@ class Led:
         self.timeLength = timeLength
       
     def on_off(self):
-        self.ledColor.value(self.valueNumber), time.sleep(self.timeLength)
+        self.ledColor.value(self.valueNumber) 
+        time.sleep(self.timeLength)
     
     @classmethod
     def all_off(cls, color_dict):
